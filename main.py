@@ -9,7 +9,20 @@ Usage:
 
 import json
 import os
+import sys
 import time
+
+
+def configure_console() -> None:
+    """Keep Vietnamese progress logs printable on Windows codepages."""
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except AttributeError:
+            pass
+
+
+configure_console()
 
 
 def main():
@@ -31,7 +44,7 @@ def main():
     print("-" * 40)
     from src.pipeline import build_pipeline, evaluate_pipeline
     search, reranker = build_pipeline()
-    prod_results = evaluate_pipeline(search, reranker)
+    evaluate_pipeline(search, reranker)
 
     # Move reports to reports/
     for f in ["ragas_report.json", "naive_baseline_report.json"]:

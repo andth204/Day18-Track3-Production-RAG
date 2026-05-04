@@ -1,0 +1,11 @@
+{
+  "chunking_s": 0.003982099995482713,
+  "enrichment_s": 6.599999323952943e-06,
+  "indexing_s": 84.13885690000461,
+  "reranker_load_s": 8.4963201999999,
+  "search_avg_ms": 205.75,
+  "rerank_avg_ms": 5936.3,
+  "generate_avg_ms": 3265.58,
+  "total_per_query_ms": 9407.63,
+  "n_queries": 30
+}

@@ -1,3 +1,419 @@
-[
-  {"question": "hihi cả nhà tự tạo testset bằng cơm nhé", "ground_truth": "Không kịp tạo luôn"},
-]
+{
+  "metadata": {
+    "title": "Bộ 50 câu hỏi test - Nghị định 13/2023/NĐ-CP & Tờ khai thuế GTGT",
+    "description": "Câu hỏi kiểm tra kiến thức về bảo vệ dữ liệu cá nhân và khai thuế giá trị gia tăng",
+    "total_questions": 50,
+    "difficulty_distribution": {
+      "easy": 8,
+      "medium": 37,
+      "hard": 5
+    },
+    "source_documents": [
+      "Nghi_dinh_so_13-2023_ve_bao_ve_du_lieu_ca_nhan_508ee.pdf",
+      "BCTC.pdf"
+    ],
+    "created_date": "2026-05-04"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Nghị định 13/2023/NĐ-CP có hiệu lực thi hành từ ngày nào?",
+      "difficulty": "easy",
+      "ground_truth": "Ngày 01 tháng 7 năm 2023.",
+      "source": "Điều 43.1 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 2,
+      "question": "Chủ thể dữ liệu là gì theo Nghị định 13/2023?",
+      "difficulty": "easy",
+      "ground_truth": "Là cá nhân được dữ liệu cá nhân phản ánh.",
+      "source": "Điều 2.6 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 3,
+      "question": "Mã số thuế của Công ty Cổ phần DHA Surfaces là gì?",
+      "difficulty": "easy",
+      "ground_truth": "0106769437",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT, chỉ tiêu [05]",
+      "options": null
+    },
+    {
+      "id": 4,
+      "question": "Kỳ tính thuế trong tờ khai thuế GTGT mẫu 01/GTGT của công ty DHA là kỳ nào?",
+      "difficulty": "easy",
+      "ground_truth": "Quý 4 năm 2024",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT, chỉ tiêu [01b]",
+      "options": null
+    },
+    {
+      "id": 5,
+      "question": "Dữ liệu cá nhân theo Nghị định 13/2023 bao gồm những loại nào?",
+      "difficulty": "easy",
+      "ground_truth": "Dữ liệu cá nhân cơ bản và dữ liệu cá nhân nhạy cảm.",
+      "source": "Điều 2.1 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 6,
+      "question": "Bên Kiểm soát dữ liệu cá nhân là tổ chức/cá nhân có vai trò gì?",
+      "difficulty": "easy",
+      "ground_truth": "Quyết định mục đích và phương tiện xử lý dữ liệu cá nhân.",
+      "source": "Điều 2.9 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 7,
+      "question": "Số tiền thuế GTGT còn phải nộp trong kỳ của công ty DHA Surfaces là bao nhiêu?",
+      "difficulty": "easy",
+      "ground_truth": "52.133.830 đồng (chỉ tiêu [40])",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT, chỉ tiêu [40]",
+      "options": null
+    },
+    {
+      "id": 8,
+      "question": "Sự im lặng hoặc không phản hồi của chủ thể dữ liệu có được coi là sự đồng ý không?",
+      "difficulty": "easy",
+      "ground_truth": "Không được coi là sự đồng ý.",
+      "source": "Điều 11.6 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 9,
+      "question": "Liệt kê 5 quyền cơ bản của chủ thể dữ liệu theo Điều 9 Nghị định 13/2023.",
+      "difficulty": "medium",
+      "ground_truth": "Quyền được biết; Quyền đồng ý; Quyền truy cập; Quyền rút lại sự đồng ý; Quyền xóa dữ liệu; Quyền hạn chế xử lý; Quyền cung cấp dữ liệu; Quyền phản đối xử lý; Quyền khiếu nại; Quyền yêu cầu bồi thường; Quyền tự bảo vệ.",
+      "source": "Điều 9 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 10,
+      "question": "Dữ liệu cá nhân cơ bản bao gồm những thông tin cụ thể nào? (Nêu ít nhất 5 loại)",
+      "difficulty": "medium",
+      "ground_truth": "Họ tên, ngày sinh, giới tính, địa chỉ, quốc tịch, hình ảnh, số điện thoại, số CMND/định danh, số hộ chiếu, tình trạng hôn nhân, thông tin gia đình, tài khoản số...",
+      "source": "Điều 2.3 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 11,
+      "question": "Dữ liệu cá nhân nhạy cảm bao gồm những loại thông tin nào? (Nêu ít nhất 5 loại)",
+      "difficulty": "medium",
+      "ground_truth": "Quan điểm chính trị/tôn giáo; tình trạng sức khỏe; nguồn gốc chủng tộc/dân tộc; thông tin di truyền; đặc điểm sinh học; đời sống tình dục; dữ liệu tội phạm; thông tin khách hàng tổ chức tín dụng; dữ liệu vị trí cá nhân...",
+      "source": "Điều 2.4 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 12,
+      "question": "Trong những trường hợp nào việc xử lý dữ liệu cá nhân KHÔNG cần sự đồng ý của chủ thể dữ liệu?",
+      "difficulty": "medium",
+      "ground_truth": "(1) Trường hợp khẩn cấp bảo vệ tính mạng, sức khỏe; (2) Công khai theo luật; (3) Cơ quan nhà nước xử lý vì an ninh, trật tự; (4) Thực hiện nghĩa vụ hợp đồng; (5) Phục vụ hoạt động cơ quan nhà nước theo luật chuyên ngành.",
+      "source": "Điều 17 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 13,
+      "question": "Thời hạn Bên Kiểm soát dữ liệu phải thông báo vi phạm cho Bộ Công an là bao lâu?",
+      "difficulty": "medium",
+      "ground_truth": "Chậm nhất 72 giờ sau khi xảy ra hành vi vi phạm.",
+      "source": "Điều 23.1 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 14,
+      "question": "Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân phải được gửi cho Bộ Công an trong thời hạn bao nhiêu ngày kể từ khi bắt đầu xử lý?",
+      "difficulty": "medium",
+      "ground_truth": "60 ngày",
+      "source": "Điều 24.4 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 15,
+      "question": "Yêu cầu hạn chế xử lý dữ liệu của chủ thể dữ liệu phải được thực hiện trong thời hạn bao lâu?",
+      "difficulty": "medium",
+      "ground_truth": "72 giờ sau khi có yêu cầu của chủ thể dữ liệu.",
+      "source": "Điều 9.6.b Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 16,
+      "question": "Việc cung cấp dữ liệu cá nhân theo yêu cầu của chủ thể dữ liệu phải được thực hiện trong thời hạn bao lâu?",
+      "difficulty": "medium",
+      "ground_truth": "72 giờ sau khi có yêu cầu của chủ thể dữ liệu.",
+      "source": "Điều 14.3 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 17,
+      "question": "Bên Xử lý dữ liệu cá nhân có trách nhiệm gì khi kết thúc hợp đồng với Bên Kiểm soát dữ liệu?",
+      "difficulty": "medium",
+      "ground_truth": "Xóa hoặc trả lại toàn bộ dữ liệu cá nhân cho Bên Kiểm soát dữ liệu cá nhân.",
+      "source": "Điều 39.5 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 18,
+      "question": "Việc chuyển dữ liệu cá nhân ra nước ngoài phải lập hồ sơ đánh giá tác động và gửi Bộ Công an trong thời hạn bao nhiêu ngày?",
+      "difficulty": "medium",
+      "ground_truth": "60 ngày kể từ ngày tiến hành xử lý dữ liệu cá nhân.",
+      "source": "Điều 25.3 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 19,
+      "question": "Chủ thể dữ liệu có quyền rút lại sự đồng ý không? Việc rút lại có ảnh hưởng gì đến tính hợp pháp của xử lý trước đó?",
+      "difficulty": "medium",
+      "ground_truth": "Có quyền rút lại. Việc rút lại không ảnh hưởng đến tính hợp pháp của việc xử lý dữ liệu đã được đồng ý trước khi rút lại.",
+      "source": "Điều 12.1 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 20,
+      "question": "Giá trị hàng hóa, dịch vụ mua vào trong kỳ của công ty DHA Surfaces là bao nhiêu (chưa có thuế GTGT)?",
+      "difficulty": "medium",
+      "ground_truth": "2.405.743.241 đồng (chỉ tiêu [23])",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT, chỉ tiêu [23]",
+      "options": null
+    },
+    {
+      "id": 21,
+      "question": "Thuế GTGT của hàng hóa, dịch vụ mua vào được khấu trừ trong kỳ của công ty DHA là bao nhiêu?",
+      "difficulty": "medium",
+      "ground_truth": "215.163.767 đồng (chỉ tiêu [25])",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT, chỉ tiêu [25]",
+      "options": null
+    },
+    {
+      "id": 22,
+      "question": "Tổng doanh thu bán hàng chịu thuế suất 10% của công ty DHA trong kỳ là bao nhiêu?",
+      "difficulty": "medium",
+      "ground_truth": "3.703.688.610 đồng (chỉ tiêu [32])",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT, chỉ tiêu [32]",
+      "options": null
+    },
+    {
+      "id": 23,
+      "question": "Thuế GTGT phát sinh trong kỳ của công ty DHA được tính như thế nào và bằng bao nhiêu?",
+      "difficulty": "medium",
+      "ground_truth": "[36] = [35] - [25] = 344.675.400 - 215.163.767 = 129.511.633 đồng",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT, chỉ tiêu [36]",
+      "options": null
+    },
+    {
+      "id": 24,
+      "question": "Khi nào Bên Kiểm soát dữ liệu phải thông báo cho chủ thể dữ liệu về hoạt động xử lý dữ liệu?",
+      "difficulty": "medium",
+      "ground_truth": "Thông báo một lần trước khi tiến hành xử lý, trừ khi chủ thể đã biết và đồng ý đầy đủ, hoặc khi cơ quan nhà nước xử lý theo thẩm quyền.",
+      "source": "Điều 13 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 25,
+      "question": "Biện pháp bảo vệ dữ liệu cá nhân nhạy cảm có gì khác biệt so với dữ liệu cơ bản?",
+      "difficulty": "medium",
+      "ground_truth": "Phải chỉ định bộ phận/nhân sự chuyên trách bảo vệ dữ liệu; trao đổi thông tin với Cơ quan chuyên trách; thông báo cho chủ thể biết dữ liệu nhạy cảm đang được xử lý.",
+      "source": "Điều 28 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 26,
+      "question": "Cơ quan chuyên trách bảo vệ dữ liệu cá nhân theo Nghị định 13/2023 là cơ quan nào?",
+      "difficulty": "medium",
+      "ground_truth": "Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao - Bộ Công an.",
+      "source": "Điều 29.1 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 27,
+      "question": "Trách nhiệm chính của Bộ Công an trong quản lý nhà nước về bảo vệ dữ liệu cá nhân là gì? (Nêu 3 nội dung)",
+      "difficulty": "medium",
+      "ground_truth": "(1) Hướng dẫn, triển khai hoạt động bảo vệ dữ liệu; (2) Xây dựng, quản lý Cổng thông tin quốc gia; (3) Thanh tra, kiểm tra, xử lý vi phạm; (4) Tiếp nhận hồ sơ, thông tin về bảo vệ dữ liệu...",
+      "source": "Điều 32 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 28,
+      "question": "Doanh nghiệp siêu nhỏ, nhỏ, vừa, khởi nghiệp được miễn trừ quy định nào trong 2 năm đầu kể từ khi thành lập?",
+      "difficulty": "medium",
+      "ground_truth": "Được lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân.",
+      "source": "Điều 43.2 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 29,
+      "question": "Việc xóa dữ liệu cá nhân KHÔNG áp dụng trong những trường hợp nào? (Nêu ít nhất 3 trường hợp)",
+      "difficulty": "medium",
+      "ground_truth": "(1) Pháp luật không cho phép xóa; (2) Cơ quan nhà nước xử lý theo thẩm quyền; (3) Dữ liệu đã được công khai theo luật; (4) Phục vụ yêu cầu pháp lý, nghiên cứu, thống kê; (5) Tình trạng khẩn cấp về quốc phòng, an ninh...",
+      "source": "Điều 16.2 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 30,
+      "question": "Bên thứ ba trong xử lý dữ liệu cá nhân được định nghĩa như thế nào?",
+      "difficulty": "medium",
+      "ground_truth": "Là tổ chức, cá nhân ngoài Chủ thể dữ liệu, Bên Kiểm soát, Bên Xử lý, Bên Kiểm soát và xử lý dữ liệu, được phép xử lý dữ liệu cá nhân.",
+      "source": "Điều 2.12 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 31,
+      "question": "Xử lý dữ liệu cá nhân của trẻ em cần có những điều kiện gì về sự đồng ý?",
+      "difficulty": "medium",
+      "ground_truth": "Phải có sự đồng ý của trẻ em từ đủ 7 tuổi trở lên VÀ sự đồng ý của cha, mẹ hoặc người giám hộ theo quy định.",
+      "source": "Điều 20.2 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 32,
+      "question": "Tổng doanh thu bán hàng (chưa thuế) của công ty DHA Surfaces trong kỳ là bao nhiêu?",
+      "difficulty": "medium",
+      "ground_truth": "3.703.688.610 đồng (chỉ tiêu [34])",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT, chỉ tiêu [34]",
+      "options": null
+    },
+    {
+      "id": 33,
+      "question": "Thuế GTGT còn được khấu trừ kỳ trước chuyển sang của công ty DHA là bao nhiêu?",
+      "difficulty": "medium",
+      "ground_truth": "77.377.503 đồng (chỉ tiêu [22])",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT, chỉ tiêu [22]",
+      "options": null
+    },
+    {
+      "id": 34,
+      "question": "Khi phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân, tổ chức/cá nhân phải thông báo cho Bộ Công an qua kênh nào?",
+      "difficulty": "medium",
+      "ground_truth": "Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao - Bộ Công an, theo Mẫu số 03 tại Phụ lục Nghị định.",
+      "source": "Điều 23.1 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 35,
+      "question": "Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài phải bao gồm những nội dung chính nào? (Nêu 4 nội dung)",
+      "difficulty": "medium",
+      "ground_truth": "(1) Thông tin Bên chuyển và Bên tiếp nhận; (2) Mô tả mục tiêu xử lý sau khi chuyển; (3) Loại dữ liệu chuyển đi; (4) Biện pháp bảo vệ áp dụng; (5) Đánh giá rủi ro; (6) Sự đồng ý của chủ thể; (7) Văn bản ràng buộc trách nhiệm...",
+      "source": "Điều 25.2 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 36,
+      "question": "Nghĩa vụ của chủ thể dữ liệu theo Điều 10 Nghị định 13/2023 gồm những nội dung gì?",
+      "difficulty": "medium",
+      "ground_truth": "(1) Tự bảo vệ dữ liệu của mình; (2) Tôn trọng dữ liệu của người khác; (3) Cung cấp đầy đủ, chính xác khi đồng ý; (4) Tuyên truyền kỹ năng bảo vệ dữ liệu; (5) Tham gia phòng chống vi phạm.",
+      "source": "Điều 10 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 37,
+      "question": "Liệt kê 5 hành vi bị nghiêm cấm trong bảo vệ dữ liệu cá nhân theo Điều 8 Nghị định 13/2023.",
+      "difficulty": "medium",
+      "ground_truth": "(1) Xử lý trái pháp luật; (2) Tạo thông tin chống Nhà nước; (3) Gây ảnh hưởng an ninh quốc gia, trật tự xã hội; (4) Cản trở hoạt động bảo vệ dữ liệu của cơ quan có thẩm quyền; (5) Lợi dụng bảo vệ dữ liệu để vi phạm pháp luật.",
+      "source": "Điều 8 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 38,
+      "question": "Việc chỉnh sửa dữ liệu cá nhân phải được thực hiện như thế nào khi chủ thể dữ liệu yêu cầu?",
+      "difficulty": "medium",
+      "ground_truth": "Bên Kiểm soát/Bên Kiểm soát và xử lý phải chỉnh sửa ngay khi có thể hoặc theo luật chuyên ngành; nếu không thể thì thông báo cho chủ thể sau 72 giờ kể từ khi nhận yêu cầu.",
+      "source": "Điều 15.2 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 39,
+      "question": "Bên Kiểm soát và xử lý dữ liệu cá nhân là gì?",
+      "difficulty": "medium",
+      "ground_truth": "Là tổ chức, cá nhân đồng thời quyết định mục đích, phương tiện VÀ trực tiếp xử lý dữ liệu cá nhân.",
+      "source": "Điều 2.11 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 40,
+      "question": "Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân có những chức năng chính nào? (Nêu 4 chức năng)",
+      "difficulty": "medium",
+      "ground_truth": "(1) Cung cấp thông tin chính sách, pháp luật; (2) Tuyên truyền, phổ biến kiến thức; (3) Tiếp nhận thông tin, hồ sơ qua mạng; (4) Tiếp nhận thông báo vi phạm; (5) Cảnh báo nguy cơ xâm phạm dữ liệu; (6) Xử lý vi phạm...",
+      "source": "Điều 29.2 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 41,
+      "question": "Thuế GTGT đề nghị hoàn và còn được khấu trừ chuyển kỳ sau của công ty DHA là bao nhiêu?",
+      "difficulty": "medium",
+      "ground_truth": "0 đồng (chỉ tiêu [42] và [43])",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT, chỉ tiêu [42], [43]",
+      "options": null
+    },
+    {
+      "id": 42,
+      "question": "Khi nào dữ liệu cá nhân phải được xóa không thể khôi phục? (Nêu 3 trường hợp)",
+      "difficulty": "medium",
+      "ground_truth": "(1) Xử lý không đúng mục đích hoặc đã hoàn thành mục đích được đồng ý; (2) Việc lưu trữ không còn cần thiết; (3) Tổ chức bị giải thể, chấm dứt hoạt động hoặc tuyên bố phá sản.",
+      "source": "Điều 16.7 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 43,
+      "question": "Trách nhiệm của Bên Xử lý dữ liệu khi phát hiện vi phạm quy định về bảo vệ dữ liệu là gì?",
+      "difficulty": "medium",
+      "ground_truth": "Phải thông báo cho Bên Kiểm soát dữ liệu cá nhân một cách nhanh nhất có thể sau khi nhận thấy có sự vi phạm.",
+      "source": "Điều 23.2 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 44,
+      "question": "Việc thu thập, xử lý dữ liệu cá nhân từ hoạt động ghi âm, ghi hình tại nơi công cộng được quy định như thế nào?",
+      "difficulty": "medium",
+      "ground_truth": "Cơ quan có thẩm quyền được ghi âm, ghi hình và xử lý vì mục đích bảo vệ an ninh, trật tự mà không cần sự đồng ý; nhưng phải thông báo để chủ thể biết mình đang bị ghi âm/ghi hình, trừ trường hợp luật quy định khác.",
+      "source": "Điều 18 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 45,
+      "question": "Nguyên tắc 'dữ liệu cá nhân chỉ được lưu trữ trong khoảng thời gian phù hợp' được quy định tại điều khoản nào và có ý nghĩa gì?",
+      "difficulty": "medium",
+      "ground_truth": "Điều 3 khoản 7 Nghị định 13/2023. Ý nghĩa: Đảm bảo dữ liệu không bị lưu giữ quá lâu không cần thiết, giảm rủi ro lộ, mất hoặc sử dụng sai mục đích.",
+      "source": "Điều 3.7 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 46,
+      "question": "Phân tích sự khác biệt pháp lý về trách nhiệm giữa Bên Kiểm soát dữ liệu, Bên Xử lý dữ liệu và Bên Kiểm soát và xử lý dữ liệu cá nhân. Nếu xảy ra sự cố rò rỉ dữ liệu do lỗi của Bên Xử lý, trách nhiệm bồi thường được phân bổ như thế nào?",
+      "difficulty": "hard",
+      "ground_truth": "- Bên Kiểm soát: quyết định mục đích/phương tiện, chịu trách nhiệm trước chủ thể dữ liệu về thiệt hại do quá trình xử lý gây ra (Điều 38.6).\n- Bên Xử lý: xử lý thay mặt theo hợp đồng, chịu trách nhiệm trước chủ thể về thiệt hại do mình gây ra (Điều 39.4), phải xóa/trả lại dữ liệu khi kết thúc (Điều 39.5).\n- Bên Kiểm soát và xử lý: chịu trách nhiệm kép của cả hai vai trò (Điều 40).\n- Nếu rò rỉ do lỗi Bên Xử lý: Bên Xử lý chịu trách nhiệm trực tiếp; Bên Kiểm soát vẫn có thể chịu trách nhiệm liên đới nếu không giám sát, lựa chọn Bên Xử lý phù hợp (Điều 38.4).",
+      "source": "Điều 38, 39, 40 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 47,
+      "question": "Công ty DHA Surfaces muốn chuyển toàn bộ dữ liệu khách hàng (bao gồm tên, SĐT, địa chỉ, lịch sử giao dịch) sang server đặt tại Singapore để xử lý tự động nhằm phân tích hành vi mua sắm. Hãy liệt kê CHI TIẾT các bước pháp lý công ty phải thực hiện theo Nghị định 13/2023, kèm thời hạn và mẫu biểu liên quan.",
+      "difficulty": "hard",
+      "ground_truth": "1. Lập Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài (Điều 25.2), bao gồm: thông tin Bên chuyển/nhận; mục tiêu xử lý; loại dữ liệu; biện pháp bảo vệ; đánh giá rủi ro; sự đồng ý của chủ thể; văn bản ràng buộc trách nhiệm.\n2. Đảm bảo có sự đồng ý rõ ràng của chủ thể dữ liệu theo Điều 11 (biết rõ cơ chế phản hồi, khiếu nại).\n3. Gửi 01 bản chính hồ sơ tới Cục An ninh mạng - Bộ Công an theo Mẫu số 06 trong vòng 60 ngày kể từ ngày bắt đầu xử lý (Điều 25.3).\n4. Sau khi chuyển thành công, thông báo bằng văn bản cho Bộ Công an về việc chuyển và chi tiết liên lạc người phụ trách (Điều 25.4).\n5. Cập nhật, bổ sung hồ sơ nếu có thay đổi nội dung theo Mẫu số 05 trong 10 ngày kể từ ngày yêu cầu (Điều 25.6).\n6. Áp dụng biện pháp bảo vệ dữ liệu nhạy cảm nếu có (Điều 28) và lưu giữ hồ sơ để phục vụ thanh tra (Điều 25.3).",
+      "source": "Điều 25 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 48,
+      "question": "Phân tích các trường hợp ngoại lệ khi chủ thể dữ liệu KHÔNG có quyền xóa dữ liệu cá nhân của mình theo Điều 16.2 Nghị định 13/2023. Với mỗi trường hợp, hãy nêu căn cứ pháp lý và ví dụ minh họa cụ thể.",
+      "difficulty": "hard",
+      "ground_truth": "1. **Pháp luật không cho phép xóa**: Ví dụ: dữ liệu phục vụ điều tra hình sự đang trong thời hiệu truy cứu (căn cứ: Luật Tố tụng hình sự).\n2. **Cơ quan nhà nước xử lý theo thẩm quyền**: Ví dụ: dữ liệu thuế của người nộp thuế đang trong thời hạn lưu trữ theo Luật Quản lý thuế.\n3. **Dữ liệu đã được công khai theo luật**: Ví dụ: thông tin doanh nghiệp đã đăng ký công khai trên Cổng thông tin quốc gia.\n4. **Phục vụ yêu cầu pháp lý, nghiên cứu, thống kê**: Ví dụ: dữ liệu y tế ẩn danh phục vụ nghiên cứu dịch tễ học được Bộ Y tế phê duyệt.\n5. **Tình trạng khẩn cấp về quốc phòng, an ninh**: Ví dụ: dữ liệu định vị phục vụ truy vết dịch bệnh trong tình trạng khẩn cấp.\n6. **Ứng phó tình huống khẩn cấp đe dọa tính mạng**: Ví dụ: dữ liệu bệnh án điện tử được lưu giữ để cấp cứu bệnh nhân nguy kịch.",
+      "source": "Điều 16.2 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    },
+    {
+      "id": 49,
+      "question": "Giả sử công ty DHA Surfaces có doanh thu quý 4/2024 tăng 20% so với quý trước, nhưng tỷ lệ hàng hóa chịu thuế suất 10% giảm từ 100% xuống 80%, phần còn lại chịu thuế suất 5%. Hãy tính lại các chỉ tiêu [27], [28], [34], [35], [36], [40] dựa trên giả định giá trị mua vào và thuế mua vào không đổi. (Làm tròn đến đồng)",
+      "difficulty": "hard",
+      "ground_truth": "- Giả định doanh thu quý trước = 3.703.688.610 đ → Quý 4 tăng 20% = 4.444.426.332 đ\n- 80% chịu 10%: 3.555.541.066 đ → Thuế: 355.554.107 đ\n- 20% chịu 5%: 888.885.266 đ → Thuế: 44.444.263 đ\n- [27] = 4.444.426.332 đ; [28] = 355.554.107 + 44.444.263 = 399.998.370 đ\n- [34] = [27] = 4.444.426.332 đ; [35] = [28] = 399.998.370 đ\n- [36] = [35] - [25] = 399.998.370 - 215.163.767 = 184.834.603 đ\n- [40a] = [36] - [22] = 184.834.603 - 77.377.503 = 107.457.100 đ (≥0)\n- [40] = [40a] = 107.457.100 đ",
+      "source": "Tờ khai thuế GTGT mẫu 01/GTGT + Tính toán giả định",
+      "options": null
+    },
+    {
+      "id": 50,
+      "question": "Phân tích mối quan hệ pháp lý giữa: (1) quyền rút lại sự đồng ý của chủ thể dữ liệu; (2) nghĩa vụ lưu trữ dữ liệu của Bên Kiểm soát; và (3) yêu cầu cung cấp dữ liệu từ cơ quan nhà nước có thẩm quyền phục vụ điều tra tội phạm. Khi có xung đột giữa các quy định này, nguyên tắc ưu tiên nào được áp dụng?",
+      "difficulty": "hard",
+      "ground_truth": "- **Quyền rút lại đồng ý** (Điều 12): Chủ thể có quyền rút lại, nhưng không ảnh hưởng tính hợp pháp của xử lý trước đó.\n- **Nghĩa vụ lưu trữ** (Điều 3.7, 16): Dữ liệu chỉ lưu trong thời gian phù hợp mục đích, trừ khi luật quy định khác.\n- **Yêu cầu từ cơ quan nhà nước** (Điều 17.3): Cơ quan có thẩm quyền được xử lý dữ liệu vì mục đích điều tra tội phạm mà không cần đồng ý.\n\n**Nguyên tắc ưu tiên khi xung đột**:\n1. **Luật chuyên ngành > Nghị định**: Nếu Luật Tố tụng hình sự yêu cầu lưu trữ dữ liệu phục vụ điều tra, nghĩa vụ này ưu tiên hơn quyền xóa/rút lại của chủ thể.\n2. **Lợi ích công cộng > Quyền cá nhân**: Trong trường hợp khẩn cấp về an ninh, quốc phòng, xử lý dữ liệu vì lợi ích công cộng được ưu tiên (Điều 17).\n3. **Tuân thủ nguyên tắc tỷ lệ**: Bên Kiểm soát vẫn phải áp dụng biện pháp bảo vệ tối thiểu cần thiết, chỉ cung cấp dữ liệu đúng phạm vi yêu cầu của cơ quan có thẩm quyền.\n4. **Ghi chép, minh bạch**: Mọi trường hợp ưu tiên nghĩa vụ công phải được ghi lại trong nhật ký hệ thống (Điều 38.2) và báo cáo khi có yêu cầu.",
+      "source": "Điều 12, 16, 17, 38 Nghị định 13/2023/NĐ-CP",
+      "options": null
+    }
+  ]
+}
