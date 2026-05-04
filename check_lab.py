@@ -7,8 +7,21 @@ Chạy: python check_lab.py
 
 import json
 import os
+import re
 import sys
 import subprocess
+
+
+def configure_console() -> None:
+    """Keep Vietnamese and status symbols printable on Windows codepages."""
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except AttributeError:
+            pass
+
+
+configure_console()
 
 
 def check_file(path: str, required: bool = True) -> bool:
@@ -55,20 +68,19 @@ def run_tests() -> tuple[int, int]:
     """Run pytest and return (passed, total)."""
     try:
         result = subprocess.run(
-            [sys.executable, "-m", "pytest", "tests/", "-v", "--tb=no", "-q"],
+            [sys.executable, "-m", "pytest", "tests/", "-v", "--tb=no", "-q", "-p", "no:cacheprovider"],
             capture_output=True, text=True, timeout=120,
         )
-        lines = result.stdout.strip().split("\n")
-        summary = lines[-1] if lines else ""
-        # Parse "X passed, Y failed" or "X passed"
+        output = f"{result.stdout}\n{result.stderr}"
         passed = total = 0
-        for part in summary.split(","):
-            part = part.strip()
-            if "passed" in part:
-                passed = int(part.split()[0])
-                total += passed
-            if "failed" in part:
-                total += int(part.split()[0])
+        # Parse pytest summaries such as "37 passed in 21.75s" or
+        # "35 passed, 2 failed in 10.1s".
+        for count, status in re.findall(r"(\d+)\s+(passed|failed|error|errors|skipped)", output):
+            n = int(count)
+            if status == "passed":
+                passed += n
+            if status in {"passed", "failed", "error", "errors"}:
+                total += n
         return passed, total
     except Exception as e:
         print(f"  ⚠️  pytest error: {e}")
